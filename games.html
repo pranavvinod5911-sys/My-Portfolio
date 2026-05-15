@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Games</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="games/games.css">
+
+</head>
+
+<body>
+
+<!-- USER PANEL -->
+<div class="user-panel">
+
+  <div id="currentUser">
+    👤 Guest
+  </div>
+
+  <button onclick="changeUsername()">
+    Change Username
+  </button>
+
+</div>
+
+<!-- SHAPES -->
+<img src="Images/Shapes/shape7.png"
+class="shape shape-right">
+
+<img src="Images/Shapes/shape8.png"
+class="shape shape-left">
+
+<!-- NAVBAR -->
+<nav>
+
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="books.html">Books</a>
+  <a href="contact.html">Contact</a>
+  <a href="games.html">Games</a>
+
+</nav>
+<!-- TITLE -->
+<h1>🎮 Games</h1>
+<!-- INTRO -->
+<section class="games-intro">
+
+  <!-- GAMES -->
+<div class="games-grid">
+
+  <a href="games/snake.html"
+  class="card">
+
+  🐍 Snake
+
+  </a>
+
+  <a href="games/flappy.html"
+  class="card">
+
+  🐦 Flappy
+
+  </a>
+
+  <a href="games/dino.html"
+  class="card">
+
+  🦖 Dino
+
+  </a>
+
+</div>
+
+  <p>
+  At some point I thought:
+  “Why stop at a portfolio
+  when I can also distract
+  people with games?”
+  </p>
+
+  <p>
+  _______So yeah… these were built
+  during random coding sessions,
+  debugging pain, and way too many
+  “why is this not working” moments.
+  </p>
+
+  <p>
+  They may look simple,
+  but trust me,
+  these things caused
+  emotional damage while making them 💀
+  </p>
+
+  <p>
+  Anyway, try not to rage quit.
+  </p>
+
+</section>
+
+
+
+<!-- 🏆 TOP LEADERBOARD -->
+<div class="top-leaderboard">
+
+  <h2>🏆 Top Players</h2>
+
+  <div id="leaderboard"></div>
+
+</div>
+<div class="games-page-content"> </div>
+<script src="games/games.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
