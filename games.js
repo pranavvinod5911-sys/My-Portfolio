@@ -6,13 +6,13 @@ localStorage.getItem("username") || "Guest";
 /* 🔊 SOUNDS */
 
 const jumpSound =
-new Audio("../audio/jump.mp3");
+new Audio("jump.mp3");
 
 const hitSound =
-new Audio("../audio/hit.mp3");
+new Audio("hit.mp3");
 
 const scoreSound =
-new Audio("../audio/score.mp3");
+new Audio("score.mp3");
 
 /* 🔊 PLAY SOUND */
 
