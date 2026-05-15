@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dino Game</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="games.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../projects.html">Projects</a>
+  <a href="../books.html">Books</a>
+  <a href="../contact.html">Contact</a>
+  <a href="../games.html">Games</a>
+</nav>
+
+<h1>🦖 Dino</h1>
+
+<p class="game-text">
+Basically Chrome Dino… but now it’s personal.
+</p>
+
+<p><strong>Controls:</strong></p>
+<p>Spacebar or Jump Button</p>
+
+<div class="game-box">
+  <canvas id="dino" width="400" height="400"></canvas>
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <button id="jumpBtn">⬆️ Jump</button>
+</div>
+
+<!-- RESTART -->
+<button onclick="restartGame()" class="restart">
+  🔁 Restart
+</button>
+
+
+<script src="games.js"></script>
+<script src="dino.js"></script>
+<script src="../script.js"></script>
+
+</body>
+</html>
