@@ -555,3 +555,80 @@ section,
         transform: translateY(0px) rotate(0deg);
     }
 }
+/* 📱 MOBILE */
+
+@media(max-width:768px){
+
+    nav{
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+
+        padding: 15px;
+    }
+
+    nav a{
+
+        font-size: 14px;
+
+        padding: 8px 12px;
+    }
+
+    h1{
+
+        font-size: 38px;
+    }
+
+    .hero,
+    .about-container,
+    .projects-container,
+    .books-section,
+    .games-intro{
+
+        width: 90%;
+
+        padding: 20px;
+
+        margin: auto;
+    }
+
+    .games-grid{
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .card{
+
+        width: 100%;
+    }
+
+    .top-leaderboard{
+
+        position: relative;
+
+        width: 85%;
+
+        left: auto;
+        top: auto;
+
+        margin: 30px auto;
+    }
+
+    .games-page-content{
+
+        margin-left: 0;
+    }
+
+    video{
+
+        width: 95%;
+    }
+
+    .shape{
+
+        width: 120px;
+    }
+}
